@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+<table name="atTime">
+    <field name="avID" type="I" size="10">
+      <KEY></KEY>
+      <DEFAULT value="0"></DEFAULT>
+      <UNSIGNED></UNSIGNED>
+    </field>
+    <field name="value" type="Time" ></field>
+</table>
+</schema>
+

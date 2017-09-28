@@ -1,0 +1,23 @@
+/****************************/
+version 10
+/****************************/
+
+ADDITIONS
+- new site-wide event listener for "on_payment_complete" ProForms Fired Event
+- new methods for filtering events by booking
+- new "filter by viewing user" filter
+- new "Allow Users to Save Events" setting 
+- new content event_post view "Save/Remove Event" for user saved events
+- new user saved events table
+- new 'Booking' tab in add/edit event views.
+- new Event Price and Event QTY fields installed / updated
+- new Generated Events fields for event price & qty
+
+
+/****************************/
+version 9
+/****************************/
+
+- new "Responsive" Calendar view with auto switch to list view
+- new "Metro" list view with super buff clean list views that expand. Fully responsive
+- new css added to jquery cal for responsive layouts

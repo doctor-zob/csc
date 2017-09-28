@@ -1,0 +1,141 @@
+.smallcal {
+	float: left;
+	clear: left;
+	height: 100%;
+	padding-bottom: 15px;
+	border-bottom-color: #e4e4e4;
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+    width: 100%;
+    
+}
+
+.smallcal .calwrap {
+	margin-top: 0px;
+	width: 100%;
+	float: left;
+}
+
+.smallcal  .img {
+	margin-top: 5px;
+	xbackground-image: url(./tools/calendar_sml.png);
+	xbackground-repeat: no-repeat;
+	background-color: white;
+	width: 38px;
+	height: 38px;
+	border: 1px solid #BDBDBD;
+}
+
+.smallcal .month {
+	color: #ffffff;
+	font-size: 14px;
+	xfont-weight: bold;
+	line-height: 14px;
+	text-align: center;
+	background-color: #B40404;
+}
+
+.smallcal .day {
+	font-family: , serif;
+	color: #000000;
+	font-size: 10px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.smallcal .infowrap{
+	margin-left: 8px;
+	float: left;
+    width: 100%;
+
+}
+
+.smallcal .titlehead {
+	margin:  -38px 0px 0px 32px;
+    float: left;
+    width: 100%;
+
+}
+
+.smallcal .title {
+	float: left;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-left: 8px;
+}
+
+.smallcal .local {
+	clear: left;
+	float: left;
+	font-size: 10px;
+	padding-left: 8px;
+}
+
+.smallcal .description {
+	padding-left: 42px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+.smallcal .time {
+	clear: left;
+	float: left;
+	font-size: 10px;
+    width: 100%;
+    padding-left: 8px;
+
+}
+
+.smallcal .eventfoot {
+	font-size: 12px;
+	font-family: Futura;
+	padding-right: 15px;
+}
+
+.feed {
+	font-size: 10px;
+}
+
+.feed a{
+	text-decoration: none;
+}
+
+.iCal {
+	margin-top: 5px;
+	float: right;
+	line-height: 35px;
+}
+
+.iCal img {
+	float: left;
+	padding-top: 5px;
+}
+
+.pagination {
+	margin-top: 25px;
+	font-size: 10px;
+	float: left;
+	clear: both:
+	width: 100%;
+}
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+.subdate {margin-right: 2px; line-height: 10px; float: right;}
+
+.subdate span{margin-bottom: -4px; margin-top: -3px; font-size: 8px;}
+
+.big_date{ margin-left: 10px; margin-top: 3px; float: left; display: block; height: 18px; line-height: 18px; font-size: 16px; }
+
+.small_date{ margin-left: 2px; margin-top: 5px; float: left; display: block; height: 18px; line-height: 12px; font-size: 16px; }
+
+.category_color{margin-left: 8px; padding: 0px 4px 0px 4px; float: right; color: white!important; font-size: 10px;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;}

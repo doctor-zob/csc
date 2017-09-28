@@ -1,0 +1,253 @@
+.event_cal{
+border-collapse: collapse;
+border-color: #b5b5b5;
+border-width: 1px;
+border-style: solid;
+width: 100%;
+-moz-box-shadow: 3px 3px 5px #666;
+-webkit-box-shadow: 3px 3px 5px #666;
+box-shadow: 3px 3px 5px #666;
+}
+
+
+.event_cal #select {
+	text-align: left;
+}
+
+.event_cal #year {
+	height: 28px;
+	font-size: 28px;
+	text-align: right;
+	padding: 5px 12px 5px 0px;
+}
+
+
+.event_cal .header TD{
+	text-align: center;
+	font-size: 18px;
+	height: 10px;
+	padding: 5px 0px 5px 0px;
+}
+
+
+.event_cal TD {
+	width: 85px !important;
+	height: 85px;
+	border-color: #c6c6c6;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0px 3px 0px 3px;
+
+}
+
+.event_cal TD.booked{background-color: #ffdbdb;}
+.event_cal TD.available{background-color: #dfffdc;}
+
+.event_cal TD:hover {
+	background-color: #f4f4f4;
+}
+
+
+.event_cal .cal_blank{
+
+	background-color: #e7e7e7;
+
+}
+
+.event_cal .current{
+	background-color: #f5f5f5;
+}
+
+.event_cal .day{
+
+}
+
+
+.event_cal .cal_day {
+
+}
+
+.event_cal .cal_day a {
+	font-size: 10px;
+
+}
+
+
+.event_cal #allday, .allday a {
+	background-color: #e6e1de;
+}
+
+.event_cal #normal, .normal a {
+
+
+}
+
+.event_cal .infowrap {
+	width: 350px;
+}
+
+.iCal {
+	margin-top: 5px;
+	float: left;
+	line-height: 35px;
+}
+
+.iCal img {
+	float: left;
+	padding-top: 5px;
+}
+
+.custom_style{ margin-top: 12px; text-decoration: none!important; padding: 4px 8px 6px 8px; float: right;}
+.custom_style:hover{cursor: pointer}
+
+.error{color: red;}
+.success{color: green;}
+.label {text-align: right;}
+.struct a {padding-left: 8px; padding-right: 5px;}
+.struct {padding-bottom: 5px;}
+a.eventtooltip {position: relative; text-decoration: none;}
+
+.eventtooltip h2 {
+	margin-top: 4px!important;
+	margin-bottom: 8px!important;
+}
+
+
+.eventtooltip p{line-height: 14px;}
+
+
+a.button, a.button:active, a.button:hover {
+	color: white!important;
+}
+
+.category_color{padding: 0px 4px 0px 4px; color: white!important; font-size: 10px;}
+
+
+a.eventtooltip span{
+	border-style: solid;
+	border-color: #666;
+	border-width: 1px;
+	color: #666;
+	display: none;
+	position: absolute;
+	top: -110px;
+	left: 10px;
+	width: 155px;
+	padding: 5px;
+	z-index: 100;
+	background: #f5f5f5;
+	-moz-border-radius: 5px; /* this works only in camino/firefox */
+	-webkit-border-radius: 5px; /* this is just for Safari */
+	-moz-box-shadow: 5px 5px 7px #666;
+	-webkit-box-shadow: 5px 5px 7px #666;
+	box-shadow: 5px 5px 7px #666;
+}
+/*a:hover.eventtooltip span{display: block;}*/
+
+/* button 
+---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 12px/100% Arial, Helvetica, sans-serif;
+	padding: .3em .7em .3em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.right{float: right;}
+
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+ 
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+.medium {
+	font-size: 12px;
+	padding: .4em 1.5em .42em;
+}
+.small {
+	font-size: 11px;
+	padding: .2em 1em .275em;
+}
+
+
+
+/* red */
+/*
+for more colors and button styles, go to http://www.webdesignerwall.com/demo/css-buttons.html
+and "view source".  then copy and paste the color you like into this style sheet, and change 
+the class color of the buttons in the view.php file
+*/
+/* white */
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+	color: #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top,  #ededed,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+table.event_cal tr td {
+	vertical-align: top;
+}
+table.event_cal tr td .normal {
+	font-size: 12px;
+	padding: 3px;	
+}
+a.eventtooltip span{
+	border-style: solid;
+	border-color: #666;
+	border-width: 1px;
+	color: #666;
+	display: block;
+	display: none;
+	position: absolute;
+	top: -15px;
+	right: 0;
+	width: 400px;
+	padding: 10px;
+	z-index: 100;
+	background: #f5f5f5;
+	border-radius: 5px;
+	-moz-border-radius: 5px; /* this works only in camino/firefox */
+	-webkit-border-radius: 5px; /* this is just for Safari */
+	-moz-box-shadow: 5px 5px 7px #666;
+	-webkit-box-shadow: 5px 5px 7px #666;
+	box-shadow: 5px 5px 7px #666;
+}
+a.eventtooltip span h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}

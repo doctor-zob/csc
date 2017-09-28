@@ -1,0 +1,82 @@
+.surefyre_calendar {
+	width:140px;
+}
+
+.surefyre_calendar_month {
+	font-weight: bold;
+	text-align:center;
+}
+
+.surefyre_calendar_header {
+	background-color:#eee;
+}
+
+.surefyre_calendar_row {
+	
+}
+
+.surefyre_calendar_cell {
+	float: left;
+	width: 18px;
+	text-align: center;
+	border:transparent 1px solid;
+	cursor:pointer;
+}
+
+.surefyre_calendar_today {
+	font-weight: bold;
+	border:#aaa 1px solid;
+}
+
+.surefyre_calendar_othermonth {
+	color: #ccc;
+}
+
+.surefyre_calendar_hover {
+	background-color: #ffe;
+	border: #cca 1px solid;
+}
+
+.surefyre_calendar_highlight {
+	background-color: #555;
+	color:white;
+}
+
+.surefyre_calendar_highlight.surefyre_calendar_today {
+	background-color: #3a3;
+	color:white;
+}
+
+.surefyre_calendar_list_date {
+	margin-top:15px;
+	border-bottom: #ccc 1px solid;
+	font-weight:bold;
+	font-size:120%;
+}
+
+.surefyre_calendar_list_item {
+	
+}
+
+.surefyre_calendar_list_item_name {
+	
+}
+
+.surefyre_calendar_list_item_desc {
+	margin-bottom:15px;
+}
+
+.surefyre_calendar_prevnext {
+
+}
+
+.surefyre_calendar_prev {
+	float:left;
+	cursor:pointer;
+}
+
+.surefyre_calendar_next {
+	float:right;
+	cursor:pointer;
+}
+
