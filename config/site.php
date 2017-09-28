@@ -1,6 +1,6 @@
 <?php
 
-define('DB_SERVER', getenv("OPENSHIFT_MYSQL_DB_HOST").":".getenv("OPENSHIFT_MYSQL_DB_PORT"));
+define('DB_SERVER', getenv("MYSQL_SERVICE_HOST").":".getenv("MYSQL_SERVICE_PORT"));
 define('DB_USERNAME', 'adminiiaQYsn');
 define('DB_PASSWORD', 'le-nZPZPYQeh');
 define('DB_DATABASE', 'club');
